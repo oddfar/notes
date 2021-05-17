@@ -52,6 +52,7 @@ module.exports = [
     items: [
       { text: 'C语言', link: '/c/' },
 	  { text: 'git', link: '/git/' },
+{ text: 'SMC&P', link: '/SMC&P/note/' },
     ]
   },
   { text: '关于', link: '/about/' },
