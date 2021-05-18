@@ -92,9 +92,13 @@ githubUrl=https://oddfar:${GITHUB_TOKEN}@github.com/oddfar/docs.git
 
 双击运行`deploy.sh`
 
+之后配置 [GitHub Pages](https://pages.github.com/)
+
+![image-20210517151354287](https://cdn.jsdelivr.net/gh/oddfar/static/img/20210517151356.png)
+
 ### 自动部署到github
 
-待补充
+详情查看：https://github.com/oddfar/docs/blob/master/docs/10.%E5%85%B3%E4%BA%8E/02.%E5%85%B3%E4%BA%8E%20-%20%E6%9C%AC%E7%AB%99/05.%E6%96%87%E6%A1%A3%E7%9A%84%E9%83%A8%E7%BD%B2.md
 
 ### 部署到自己服务器
 

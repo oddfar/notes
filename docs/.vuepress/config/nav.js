@@ -12,15 +12,15 @@ module.exports = [
 
         ]
       },
-	  {
+      {
         text: 'Java-Se进阶', items: [
-          { text: '多线程', link: '/java/se/thread/study-note/' },
+          { text: 'JUC多线程', link: '/java/se/thread/study-note/' },
 
         ]
       },
       {
         text: 'Java-ee', items: [
-          { text: 'MySQL', link: '/mysql/overview/' },
+          
           { text: 'JavaWeb', link: '/javaweb/basic-concepts/' },
         ]
       },
@@ -37,22 +37,41 @@ module.exports = [
     ]
   },
   {
+    text: '数据库',
+    items: [
+
+      {
+        text: 'SQL 数据库', items: [
+          { text: 'MySQL', link: '/mysql/overview/' },
+
+        ]
+      },
+
+      {
+        text: 'NoSQL 数据库', items: [
+          { text: 'Redis', link: '/redis/study-note/1/' },
+          { text: 'ElasticSearch', link: '/elasticsearch/note/2/' },
+        ]
+      },
+    ]
+  },
+  {
     text: '框架',
     items: [
       { text: 'MyBatis', link: '/mybatis/study-note/' },
       { text: 'MyBatis-Plus', link: '/mybatis-plus/study-note/' },
-	  { text: 'Spring', link: '/spring/study-note/' },
-      { text: 'Redis', link: '/redis/study-note/' },
-	  
-	  
+      { text: 'Spring', link: '/spring/study-note/' },
+      
+
+
     ]
   },
   {
     text: '其他',
     items: [
       { text: 'C语言', link: '/c/' },
-	  { text: 'git', link: '/git/' },
-{ text: 'SMC&P', link: '/SMC&P/note/' },
+      { text: 'Git', link: '/git/' },
+      { text: 'SMC&P', link: '/SMC&P/note/' },
     ]
   },
   { text: '关于', link: '/about/' },
