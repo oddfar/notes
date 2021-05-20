@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [准备](#%E5%87%86%E5%A4%87)
+- [写作](#%E5%86%99%E4%BD%9C)
+- [部署](#%E9%83%A8%E7%BD%B2)
+  - [手动部署到github](#%E6%89%8B%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%88%B0github)
+  - [自动部署到github](#%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%88%B0github)
+  - [部署到自己服务器](#%E9%83%A8%E7%BD%B2%E5%88%B0%E8%87%AA%E5%B7%B1%E6%9C%8D%E5%8A%A1%E5%99%A8)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 使用[vuepress](https://vuepress.vuejs.org/zh)搭建，自动部署在[GitHub Pages](https://pages.github.com/) 
 
 使用[vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing)主题

@@ -42,7 +42,7 @@ module.exports = [
 
       {
         text: 'SQL 数据库', items: [
-          { text: 'MySQL', link: '/mysql/overview/' },
+          { text: 'MySQL', link: '/mysql/preface/' },
 
         ]
       },
