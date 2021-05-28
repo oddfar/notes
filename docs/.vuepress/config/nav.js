@@ -66,11 +66,17 @@ module.exports = [
 
     ]
   },
+    {
+    text: '工具|部署',
+    items: [
+      { text: 'Git', link: '/git/simple-commit/' },
+      { text: 'Docker', link: '/docker/overview/' },
+    ]
+  },
   {
     text: '其他',
     items: [
       { text: 'C语言', link: '/c/' },
-      { text: 'Git', link: '/git/' },
       { text: 'SMC&P', link: '/SMC&P/note/' },
     ]
   },
