@@ -3,7 +3,7 @@ const base = require('../../base.js');
 const htmlModules = require('./config/htmlModules.js');
 
 module.exports = {
-  title: "OddFar's Docs",
+  title: "OddFar's Notes",
   description: '我们在黑暗中并肩前行，走在各自的朝圣路上!', // 描述,以 <meta> 标签渲染到页面html中
   base,  //后缀 '/docs/'
   head: [
@@ -23,7 +23,7 @@ module.exports = {
     nav,
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
-    repo: 'oddfar/docs', // 导航栏右侧生成Github链接
+    repo: 'oddfar/notes', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '最后更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
@@ -87,7 +87,7 @@ module.exports = {
     // },
     footer: { // 页脚信息
       createYear: 2021, // 博客创建年份
-      copyrightInfo: 'oddfar | docs', // 博客版权信息，支持a标签
+      copyrightInfo: 'oddfar | notes', // 博客版权信息，支持a标签
     }
   },
   plugins: [ // 插件

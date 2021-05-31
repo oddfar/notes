@@ -20,20 +20,11 @@ module.exports = [
       },
       {
         text: 'Java-ee', items: [
-          
+
           { text: 'JavaWeb', link: '/javaweb/basic-concepts/' },
         ]
       },
 
-    ]
-  },
-  {
-    text: 'Web',
-    items: [
-      { text: 'HTML', link: '/html5/overview/' },
-      { text: 'CSS', link: '/css/overview/' },
-      { text: 'JavaScript', link: '/javascript/overview/' },
-      { text: 'vue', link: '/vue/overview/' },
     ]
   },
   {
@@ -61,12 +52,12 @@ module.exports = [
       { text: 'MyBatis', link: '/mybatis/study-note/' },
       { text: 'MyBatis-Plus', link: '/mybatis-plus/study-note/' },
       { text: 'Spring', link: '/spring/study-note/' },
-      
+
 
 
     ]
   },
-    {
+  {
     text: '工具|部署',
     items: [
       { text: 'Git', link: '/git/simple-commit/' },

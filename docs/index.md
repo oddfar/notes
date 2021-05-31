@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /img/web.png
-heroText: OddFar's Docs
+heroText: OddFar's Notes
 tagline: 我们在黑暗中并肩前行，走在各自的朝圣路上!
 actionText: 立刻进入 →
 actionLink: /java/
@@ -15,4 +15,5 @@ postList: simple
 
 
 
-黎明之前总有一段时间特别黑。
+<h2 align="center">黎明之前总有一段时间特别黑。</h2>
+

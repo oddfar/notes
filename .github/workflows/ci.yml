@@ -36,8 +36,8 @@ jobs: # 工作流
           echo "StrictHostKeyChecking no" >> ~/.ssh/config
       - name: Push Gitee Mirror  #★★★★★★步骤4：推送到gitee
         env:
-          SOURCE_REPO: 'https://github.com/oddfar/docs.git'
-          DESTINATION_REPO: 'git@gitee.com:oddfar/docs.git'
+          SOURCE_REPO: 'https://github.com/oddfar/notes.git'
+          DESTINATION_REPO: 'git@gitee.com:oddfar/notes.git'
         run: |
           git clone --mirror "$SOURCE_REPO" && cd `basename "$SOURCE_REPO"`
           git remote set-url --push origin "$DESTINATION_REPO"
