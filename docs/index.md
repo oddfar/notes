@@ -15,21 +15,4 @@ postList: simple
 
 
 
-::: demo [vanilla]
-```html
-<html>
-  <div id="vanilla-box"></div>
-</html>
-<script>
-  var box = document.getElementById('vanilla-box')
-  box.innerHTML = 'Hello World! Welcome to EB'
-</script>
-<style>
-#vanilla-box {
-  color: #11a8cd;
-}
-</style>
-```
-:::
-
-
+黎明之前总有一段时间特别黑。

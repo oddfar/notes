@@ -8,12 +8,14 @@ module.exports = {
   base,  //后缀 '/docs/'
   head: [
     ['link', { rel: 'icon', href: '/img/favicon.ico' }],
-    ['meta', { name: 'keywords', content: 'oddfar,zhiyuan'}],
-    ['meta', { name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
+    ['meta', { name: 'keywords', content: 'oddfar,zhiyuan' }],
+    ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
   ],
   markdown: {
     lineNumbers: true // 代码行号
   },
+
+  port: 8080,
 
   theme: 'vdoing', // 使用依赖包主题
 
@@ -43,17 +45,17 @@ module.exports = {
     //   '图标地址1',
     //   '图标地址2'
     // ],
-	
 
-	
+
+
     sidebar: 'structuring', // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
-    
+
     // sidebarOpen: false, // 初始状态是否打开侧边栏，默认true
     updateBar: { // 最近更新栏
       showToArticle: true, // 显示到文章页底部，默认true
       // moreArticle: '/archives' // “更多文章”跳转的页面，默认'/archives'
     },
-    
+
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
       name: 'zhiyuan', // 必需
       href: 'https://oddfar.com/' // 可选的
@@ -83,7 +85,7 @@ module.exports = {
     //     }
     //   ]
     // },
-    footer:{ // 页脚信息
+    footer: { // 页脚信息
       createYear: 2021, // 博客创建年份
       copyrightInfo: 'oddfar | docs', // 博客版权信息，支持a标签
     }
@@ -124,13 +126,13 @@ module.exports = {
     [
       'vuepress-plugin-zooming', // 放大图片
       {
-        selector:'.theme-vdoing-content img:not(.no-zoom)', // 排除class是no-zoom的图片
+        selector: '.theme-vdoing-content img:not(.no-zoom)', // 排除class是no-zoom的图片
         options: {
           bgColor: 'rgba(0,0,0,0.6)'
         },
       },
     ],
-    
+
     [
       '@vuepress/last-updated', // "上次更新"时间格式
       {
