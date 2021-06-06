@@ -26,18 +26,18 @@ jobs: # 工作流
         with:
           node-version: ${{ matrix.node-version }} # 版本
 #-------------------------------------------------------------------      
-      - name: Configure Private Key #★★★★★★步骤3：设置ssh
+      - name: Configure Private Key #★★★★★★ 步骤3：设置ssh ★★★★★★
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }} # gitee的ssh
         run: |
           mkdir -p ~/.ssh
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           echo "StrictHostKeyChecking no" >> ~/.ssh/config
-      - name: Push Gitee Mirror  #★★★★★★步骤4：推送到gitee
+      - name: Push Gitee Mirror  #★★★★★★ 步骤4：推送到gitee★★★★★★
         env:
-          SOURCE_REPO: 'https://github.com/oddfar/notes.git'
-          DESTINATION_REPO: 'git@gitee.com:oddfar/notes.git'
+          SOURCE_REPO: 'https://github.com/oddfar/notes.git'    #github 仓库地址
+          DESTINATION_REPO: 'git@gitee.com:oddfar/notes.git'    #gitee 仓库地址
         run: |
           git clone --mirror "$SOURCE_REPO" && cd `basename "$SOURCE_REPO"`
           git remote set-url --push origin "$DESTINATION_REPO"
