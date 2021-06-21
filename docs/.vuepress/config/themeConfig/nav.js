@@ -8,7 +8,7 @@ module.exports = [
           { text: 'Java基础', link: '/java/se/initial-java/' },
           { text: 'Java面向对象', link: '/java/se/object/' },
           { text: 'Java常用类', link: '/java/se/commonly-used-class/' },
-          { text: 'Java集合框架', link: '/java/se/aggregate/synopsis/' },
+          { text: 'Java集合框架', link: '/java/se/collection/synopsis/' },
 
         ]
       },
