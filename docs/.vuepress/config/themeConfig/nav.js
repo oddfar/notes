@@ -62,6 +62,7 @@ module.exports = [
     items: [
       { text: 'Git', link: '/git/simple-commit/' },
       { text: 'Docker', link: '/docker/overview/' },
+	  { text: 'RabbitMQ', link: '/rabbitmq/' },
     ]
   },
   {
