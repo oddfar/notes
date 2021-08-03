@@ -4,7 +4,6 @@ module.exports = [
     text: 'Java', link: '/java/', items: [
       {
         text: 'Java-Se', items: [
-          { text: '前言', link: '/java/se/preface/' },
           { text: 'Java基础', link: '/java/se/initial-java/' },
           { text: 'Java面向对象', link: '/java/se/object/' },
           { text: 'Java常用类', link: '/java/se/commonly-used-class/' },
@@ -33,14 +32,14 @@ module.exports = [
 
       {
         text: 'SQL 数据库', items: [
-          { text: 'MySQL', link: '/mysql/preface/' },
+          { text: 'MySQL', link: '/mysql/' },
 
         ]
       },
 
       {
         text: 'NoSQL 数据库', items: [
-          { text: 'Redis', link: '/redis/study-note/1/' },
+          { text: 'Redis', link: '/redis/' },
           { text: 'ElasticSearch', link: '/es/' },
         ]
       },
@@ -60,8 +59,8 @@ module.exports = [
   {
     text: '工具|部署',
     items: [
-      { text: 'Git', link: '/git/simple-commit/' },
-      { text: 'Docker', link: '/docker/overview/' },
+      { text: 'Git', link: '/git/' },
+      { text: 'Docker', link: '/docker/' },
 	  { text: 'RabbitMQ', link: '/rabbitmq/' },
     ]
   },
