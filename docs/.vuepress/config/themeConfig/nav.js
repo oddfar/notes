@@ -13,14 +13,14 @@ module.exports = [
       },
       {
         text: 'Java-Se进阶', items: [
-          { text: 'JUC多线程', link: '/java/se/thread/study-note/' },
+          { text: 'JUC多线程', link: '/java/se/thread/1/' },
 
         ]
       },
       {
         text: 'Java-ee', items: [
 
-          { text: 'JavaWeb', link: '/javaweb/basic-concepts/' },
+          { text: 'JavaWeb', link: '/javaweb/' },
         ]
       },
 
@@ -48,11 +48,18 @@ module.exports = [
   {
     text: '框架',
     items: [
-      { text: 'MyBatis', link: '/mybatis/study-note/' },
-      { text: 'MyBatis-Plus', link: '/mybatis-plus/study-note/' },
-      { text: 'Spring', link: '/spring/study-note/' },
+      {
+        text: '数据库', items: [
+          { text: 'MyBatis', link: '/mybatis/study-note/' },
+          { text: 'MyBatis-Plus', link: '/mybatis-plus/study-note/' },
+        ]
 
 
+      }, {
+        text: 'spring', items: [
+          { text: 'Spring', link: '/spring/' },
+        ]
+      }
 
     ]
   },
@@ -61,7 +68,7 @@ module.exports = [
     items: [
       { text: 'Git', link: '/git/' },
       { text: 'Docker', link: '/docker/' },
-	  { text: 'RabbitMQ', link: '/rabbitmq/' },
+      { text: 'RabbitMQ', link: '/rabbitmq/' },
     ]
   },
   {
