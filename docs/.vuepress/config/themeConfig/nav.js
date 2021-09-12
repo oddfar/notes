@@ -41,6 +41,7 @@ module.exports = [
         text: 'NoSQL 数据库', items: [
           { text: 'Redis', link: '/redis/' },
           { text: 'ElasticSearch', link: '/es/' },
+          { text: 'MongoDB', link: '/mongodb/' },
         ]
       },
     ]
@@ -56,7 +57,7 @@ module.exports = [
 
 
       }, {
-        text: 'spring', items: [
+        text: 'Spring', items: [
           { text: 'Spring', link: '/spring/' },
         ]
       }
