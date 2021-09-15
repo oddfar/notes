@@ -61,7 +61,11 @@ module.exports = [
           { text: 'Spring', link: '/spring/' },
         ]
       }
-
+      , {
+        text: '中间件', items: [
+          { text: 'RabbitMQ', link: '/rabbitmq/' },
+        ]
+      }
     ]
   },
   {
@@ -69,7 +73,7 @@ module.exports = [
     items: [
       { text: 'Git', link: '/git/' },
       { text: 'Docker', link: '/docker/' },
-      { text: 'RabbitMQ', link: '/rabbitmq/' },
+      { text: 'Jenkins', link: '/jenkins/' },
     ]
   },
   {

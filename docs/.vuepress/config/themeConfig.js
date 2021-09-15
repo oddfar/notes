@@ -30,7 +30,6 @@ module.exports = {
     // ],
 
 
-
     sidebar: 'structuring', // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
 
     // sidebarOpen: false, // 初始状态是否打开侧边栏，默认true
@@ -45,8 +44,8 @@ module.exports = {
     },
     // blogger:{ // 博主信息，显示在首页侧边栏
     //   avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-    //   name: 'Evan Xu',
-    //   slogan: '前端界的小学生'
+    //   name: '致远',
+    //   slogan: '一个致障'
     // },
     // social:{ // 社交图标，显示于博主信息栏和页脚栏
     //   // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
@@ -54,18 +53,13 @@ module.exports = {
     //     {
     //       iconClass: 'icon-youjian',
     //       title: '发邮件',
-    //       link: 'mailto:894072666@qq.com'
+    //       link: 'mailto:3066693006@qq.com'
     //     },
     //     {
     //       iconClass: 'icon-github',
     //       title: 'GitHub',
-    //       link: 'https://github.com/xugaoyi'
+    //       link: 'https://github.com/oddfar'
     //     },
-    //     {
-    //       iconClass: 'icon-erji',
-    //       title: '听音乐',
-    //       link: 'https://music.163.com/#/playlist?id=755597173'
-    //     }
     //   ]
     // },
     footer: { // 页脚信息
