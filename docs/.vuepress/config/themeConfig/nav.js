@@ -81,6 +81,7 @@ module.exports = [
     items: [
       { text: 'C语言', link: '/c/' },
       { text: 'SMC&P', link: '/SMC&P/note/' },
+	  { text: 'Vue', link: '/vue/note0/' },
     ]
   },
   { text: '关于', link: '/about/' },
