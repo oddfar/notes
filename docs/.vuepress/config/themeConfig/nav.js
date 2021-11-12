@@ -27,6 +27,12 @@ module.exports = [
     ]
   },
   {
+    text: '前端',
+    items: [
+	  { text: 'Vue', link: '/vue/' },
+    ]
+  },
+  {
     text: '数据库',
     items: [
 
@@ -74,14 +80,6 @@ module.exports = [
       { text: 'Git', link: '/git/' },
       { text: 'Docker', link: '/docker/' },
       { text: 'Jenkins', link: '/jenkins/' },
-    ]
-  },
-  {
-    text: '其他',
-    items: [
-      { text: 'C语言', link: '/c/' },
-      { text: 'SMC&P', link: '/SMC&P/note/' },
-	  { text: 'Vue', link: '/vue/note0/' },
     ]
   },
   { text: '关于', link: '/about/' },
