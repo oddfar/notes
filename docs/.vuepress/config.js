@@ -5,7 +5,8 @@ const themeConfig = require('./config/themeConfig.js');
 
 
 module.exports = {
-  theme: 'vdoing', // 使用依赖包主题
+  theme: 'vdoing', //  使用npm包主题
+   // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
   port: 8080,//端口
 
   plugins,

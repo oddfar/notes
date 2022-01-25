@@ -27,12 +27,6 @@ module.exports = [
     ]
   },
   {
-    text: '前端',
-    items: [
-	  { text: 'Vue', link: '/vue/' },
-    ]
-  },
-  {
     text: '数据库',
     items: [
 

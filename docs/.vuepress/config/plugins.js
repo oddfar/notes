@@ -26,6 +26,10 @@ module.exports = [
 	
 	//全文搜索插件
 	['fulltext-search'],
+	//sitemap 插件
+	['sitemap',{
+      hostname: 'https://oddfar.com'
+    }],
 
 
 
