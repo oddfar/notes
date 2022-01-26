@@ -28,7 +28,7 @@ module.exports = [
 	['fulltext-search'],
 	//sitemap 插件
 	['sitemap',{
-      hostname: 'https://oddfar.com'
+      hostname: 'https://note.oddfar.com'
     }],
 
 
