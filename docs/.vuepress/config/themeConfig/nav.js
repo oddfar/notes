@@ -76,6 +76,12 @@ module.exports = [
       { text: 'Jenkins', link: '/jenkins/' },
     ]
   },
+    {
+    text: '项目',
+    items: [
+      { text: '校园信息墙', link: '/campus/' },
+    ]
+  },
   { text: '关于', link: '/about/' },
   { text: '归档', link: '/archives/' }
 ]
