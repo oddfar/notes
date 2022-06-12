@@ -64,7 +64,7 @@ module.exports = {
     // },
     footer: { // 页脚信息
         createYear: 2021, // 博客创建年份
-        copyrightInfo: 'oddfar | <a href="https://note.oddfar.com/sitemap.xml" target="_blank">sitemap.xml</a> | <a href="https://beian.miit.gov.cn/" target="_blank">冀ICP备20001094号</a>', // 博客版权信息，支持a标签
+        copyrightInfo: 'oddfar | <a href="https://beian.miit.gov.cn/" target="_blank">冀ICP备20001094号</a>', // 博客版权信息，支持a标签
     },
     //htmlModules // 插入hmtl(广告)模块
 
