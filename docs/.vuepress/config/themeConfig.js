@@ -14,6 +14,7 @@ module.exports = {
     editLinkText: '在 GitHub 上编辑此页',
 
     // 以下配置是Vdoing主题改动的和新增的配置
+    pageStyle: 'line', // 页面风格，可选值：'card'卡片 | 'line' 线（未设置bodyBgImg时才生效）， 默认'card'。 说明：card时背景显示灰色衬托出卡片样式，line时背景显示纯色，并且部分模块带线条边框
     category: false, // 是否打开分类功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含分类字段 2.页面中显示与分类相关的信息和模块 3.自动生成分类页面（在@pages文件夹）。如关闭，则反之。
     tag: false, // 是否打开标签功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含标签字段 2.页面中显示与标签相关的信息和模块 3.自动生成标签页面（在@pages文件夹）。如关闭，则反之。
     // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
@@ -30,11 +31,11 @@ module.exports = {
     // ],
 
 
-    sidebar: 'structuring', // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
+    sidebar: { mode: 'structuring', collapsable: false }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
 
     // sidebarOpen: false, // 初始状态是否打开侧边栏，默认true
     updateBar: { // 最近更新栏
-        showToArticle: true, // 显示到文章页底部，默认true
+        showToArticle: false, // 显示到文章页底部，默认true
         // moreArticle: '/archives' // “更多文章”跳转的页面，默认'/archives'
     },
 
@@ -47,21 +48,21 @@ module.exports = {
     //   name: '致远',
     //   slogan: '一个致障'
     // },
-    // social:{ // 社交图标，显示于博主信息栏和页脚栏
-    //   // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
-    //   icons: [
-    //     {
-    //       iconClass: 'icon-youjian',
-    //       title: '发邮件',
-    //       link: 'mailto:3066693006@qq.com'
-    //     },
-    //     {
-    //       iconClass: 'icon-github',
-    //       title: 'GitHub',
-    //       link: 'https://github.com/oddfar'
-    //     },
-    //   ]
-    // },
+    social:{ // 社交图标，显示于博主信息栏和页脚栏
+      // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
+      icons: [
+        {
+          iconClass: 'icon-youjian',
+          title: '发邮件',
+          link: 'mailto:oddfar@163.com'
+        },
+        {
+          iconClass: 'icon-github',
+          title: 'GitHub',
+          link: 'https://github.com/oddfar'
+        },
+      ]
+    },
     footer: { // 页脚信息
         createYear: 2021, // 博客创建年份
         copyrightInfo: 'oddfar | <a href="https://beian.miit.gov.cn/" target="_blank">冀ICP备20001094号</a>', // 博客版权信息，支持a标签
