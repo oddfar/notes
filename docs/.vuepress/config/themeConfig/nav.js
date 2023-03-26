@@ -79,7 +79,8 @@ module.exports = [
     {
     text: '项目',
     items: [
-      { text: '校园信息墙', link: '/campus/' },
+      { text: 'Campus', link: 'https://oddfar.github.io/campus-doc/' },
+      { text: '校园信息墙', link: 'https://oddfar.github.io/campus-doc/campus-example/' },
     ]
   },
   { text: '关于', link: '/about/' },
