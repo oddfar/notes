@@ -76,7 +76,8 @@ module.exports = [
       { text: 'Jenkins', link: '/jenkins/' },
     ]
   },
-    {
+  { text: '爬虫', link: '/spider/' },
+  {
     text: '项目',
     items: [
       { text: 'Campus', link: 'https://oddfar.github.io/campus-doc/' },
