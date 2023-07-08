@@ -29,4 +29,5 @@
 
 欢迎各位老哥进群进行技术交流，为了防止广告进入，请添加我微信（备注：**Java学习群**），我会直接将你拉进**Java学习群**
 
-![wechat](https://note.oddfar.com/img/my-wechat.jpg)
+<img src="https://note.oddfar.com/img/my-wechat.jpg" alt="wechat" style="height:280px;" />
+
