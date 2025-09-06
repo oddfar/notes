@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.6.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.3"></script><script>((e,t,r)=>{const{Markmap:n}=e();window.mm=n.create("svg#mindmap",null==t?void 0:t(),r)})(()=>window.markmap,t=>{return t=t||window.d3,{color:(n=t.scaleOrdinal(t.schemeCategory10),t=>n(t.p.i))};var n},{"t":"heading","d":1,"p":{"lines":[0,1]},"v":"内部寄存器","c":[{"t":"heading","d":2,"p":{"lines":[1,2]},"v":"8个通用寄存器","c":[{"t":"heading","d":3,"p":{"lines":[2,3]},"v":"数据寄存器","c":[{"t":"heading","d":4,"p":{"lines":[3,4]},"v":"AX：累加器"},{"t":"heading","d":4,"p":{"lines":[4,5]},"v":"BX：基址寄存器"},{"t":"heading","d":4,"p":{"lines":[5,6]},"v":"CX：计数寄存器"},{"t":"heading","d":4,"p":{"lines":[6,7]},"v":"DX：数据寄存器"}]},{"t":"heading","d":3,"p":{"lines":[7,8]},"v":"地址指针寄存器","c":[{"t":"heading","d":4,"p":{"lines":[8,9]},"v":"BP：基址指针寄存器"},{"t":"heading","d":4,"p":{"lines":[9,10]},"v":"SP：堆栈指针寄存器"}]},{"t":"heading","d":3,"p":{"lines":[10,11]},"v":"变址寄存器","c":[{"t":"heading","d":4,"p":{"lines":[11,12]},"v":"SI：源变址寄存器"},{"t":"heading","d":4,"p":{"lines":[12,13]},"v":"DI：目标变址寄存器"}]}]},{"t":"heading","d":2,"p":{"lines":[13,14]},"v":"4个段寄存器","c":[{"t":"heading","d":3,"p":{"lines":[14,15]},"v":"CS；代码段寄存器"},{"t":"heading","d":3,"p":{"lines":[15,16]},"v":"DS：数据段寄存器"},{"t":"heading","d":3,"p":{"lines":[16,17]},"v":"ES：附加段寄存器"},{"t":"heading","d":3,"p":{"lines":[17,18]},"v":"SS：堆栈段寄存器"}]},{"t":"heading","d":2,"p":{"lines":[18,19]},"v":"2个控制寄存器","c":[{"t":"heading","d":3,"p":{"lines":[19,20]},"v":"IP：指令寄存器"},{"t":"heading","d":3,"p":{"lines":[20,21]},"v":"FLAGSS(FR)：标志寄存器","c":[{"t":"heading","d":4,"p":{"lines":[21,22]},"v":"状态标志：","c":[{"t":"heading","d":5,"p":{"lines":[22,23]},"v":"SF：符号标志"},{"t":"heading","d":5,"p":{"lines":[23,24]},"v":"ZF：零标志"},{"t":"heading","d":5,"p":{"lines":[24,25]},"v":"PF：奇偶标志"},{"t":"heading","d":5,"p":{"lines":[25,26]},"v":"CF：进位标志"},{"t":"heading","d":5,"p":{"lines":[26,27]},"v":"AF：辅助进位标志"},{"t":"heading","d":5,"p":{"lines":[27,28]},"v":"OF：溢出标志"}]},{"t":"heading","d":4,"p":{"lines":[28,29]},"v":"控制标志：","c":[{"t":"heading","d":5,"p":{"lines":[29,30]},"v":"DF：方向标志"},{"t":"heading","d":5,"p":{"lines":[30,31]},"v":"IF：中断标志"},{"t":"heading","d":5,"p":{"lines":[31,32]},"v":"TF：跟踪标志"}]}]}]}]})</script>
+</body>
+</html>
