@@ -76,6 +76,7 @@ module.exports = [
       { text: 'Jenkins', link: '/jenkins/' },
     ]
   },
+  { text: 'AI', link: '/ai/' },
   { text: '爬虫', link: '/spider/' },
   {
     text: '项目',
