@@ -6,7 +6,21 @@ module.exports = [
         excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
     }],
     //本地插件gitee star auth
-    // [require('../plugins/star-auth')],
+    [require('../plugins/star-auth'), {
+        apiUrl: 'http://localhost:8081/api/check-star',
+        repositories: [
+            {
+                name: 'GitHub',
+                url: 'https://github.com/oddfar/campus-example',
+                platform: 'github'
+            },
+            {
+                name: 'Gitee', 
+                url: 'https://gitee.com/oddfar/campus-example',
+                platform: 'gitee'
+            }
+        ]
+    }],
     /*
 
     ['thirdparty-search', { // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
